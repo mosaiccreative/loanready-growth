@@ -59,7 +59,8 @@ loanready-growth/
 ## Deployment Status
 
 ### 🌍 Live URLs
-- **Landing Page:** [To be deployed on Vercel]
+- **Landing Page:** https://loanready-growth.vercel.app ✅ **LIVE**
+- **GitHub Repository:** https://github.com/mosaiccreative/loanready-growth ✅ **LIVE**
 - **Intake Form:** `/intake/index.html`
 - **Dashboard Template:** [Google Data Studio link pending]
 
