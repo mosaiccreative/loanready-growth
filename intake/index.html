@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Intake Form - LoanReady Growth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="max-w-4xl mx-auto py-12 px-4">
+        <div class="bg-white rounded-lg shadow-lg p-8">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-gray-900 mb-4">Restaurant Assessment Form</h1>
+                <p class="text-lg text-gray-600">Help us understand your restaurant's current situation and funding goals</p>
+            </div>
+            
+            <form id="intakeForm" class="space-y-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Business Name *</label>
+                        <input type="text" name="businessName" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Owner Name *</label>
+                        <input type="text" name="ownerName" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                        <input type="email" name="email" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
+                        <input type="tel" name="phone" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Restaurant Location (City, State) *</label>
+                        <input type="text" name="location" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Years in Business *</label>
+                        <select name="yearsInBusiness" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Select years</option>
+                            <option value="0-1">0-1 years</option>
+                            <option value="1-2">1-2 years</option>
+                            <option value="2-3">2-3 years</option>
+                            <option value="3-5">3-5 years</option>
+                            <option value="5+">5+ years</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Average Monthly Revenue *</label>
+                        <select name="monthlyRevenue" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Select range</option>
+                            <option value="10-20k">$10,000 - $20,000</option>
+                            <option value="20-30k">$20,000 - $30,000</option>
+                            <option value="30-50k">$30,000 - $50,000</option>
+                            <option value="50-75k">$50,000 - $75,000</option>
+                            <option value="75k+">$75,000+</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Average Monthly Expenses *</label>
+                        <select name="monthlyExpenses" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Select range</option>
+                            <option value="8-15k">$8,000 - $15,000</option>
+                            <option value="15-25k">$15,000 - $25,000</option>
+                            <option value="25-40k">$25,000 - $40,000</option>
+                            <option value="40-60k">$40,000 - $60,000</option>
+                            <option value="60k+">$60,000+</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Desired Loan Amount *</label>
+                        <select name="loanAmount" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Select range</option>
+                            <option value="25-50k">$25,000 - $50,000</option>
+                            <option value="50-100k">$50,000 - $100,000</option>
+                            <option value="100-150k">$100,000 - $150,000</option>
+                            <option value="150-250k">$150,000 - $250,000</option>
+                            <option value="250k+">$250,000+</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Loan Purpose *</label>
+                        <select name="loanPurpose" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Select purpose</option>
+                            <option value="expansion">Second location/expansion</option>
+                            <option value="equipment">Equipment purchase</option>
+                            <option value="renovation">Renovation/remodeling</option>
+                            <option value="working-capital">Working capital</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Have you been denied for a loan recently? *</label>
+                    <div class="space-y-2">
+                        <label class="flex items-center">
+                            <input type="radio" name="loanDenied" value="yes" class="mr-3">
+                            <span>Yes, within the last 12 months</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="loanDenied" value="no" class="mr-3">
+                            <span>No, I haven't applied yet</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="loanDenied" value="considering" class="mr-3">
+                            <span>I'm considering applying but want to improve my chances first</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Do you know your current DSCR (Debt Service Coverage Ratio)?</label>
+                    <div class="space-y-2">
+                        <label class="flex items-center">
+                            <input type="radio" name="knowDSCR" value="yes" class="mr-3">
+                            <span>Yes, it's: <input type="text" name="dscrValue" placeholder="e.g., 1.15" class="ml-2 px-2 py-1 border border-gray-300 rounded w-20"></span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="knowDSCR" value="no" class="mr-3">
+                            <span>No, I don't know how to calculate it</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">What's your biggest challenge right now?</label>
+                    <textarea name="biggestChallenge" rows="4" 
+                              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                              placeholder="Tell us about your main challenge - whether it's cash flow, loan approval, increasing revenue, etc."></textarea>
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">How did you hear about us?</label>
+                    <select name="hearAboutUs" 
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Select source</option>
+                        <option value="google">Google search</option>
+                        <option value="facebook">Facebook/Instagram</option>
+                        <option value="referral">Referral from another business owner</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <h3 class="text-lg font-semibold text-blue-900 mb-3">What Happens Next?</h3>
+                    <ul class="text-blue-800 space-y-2">
+                        <li>✓ We'll review your information within 24 hours</li>
+                        <li>✓ If you're a good fit, we'll schedule a free 30-minute strategy call</li>
+                        <li>✓ During the call, we'll show you specific opportunities to improve your DSCR</li>
+                        <li>✓ You'll get actionable insights whether you work with us or not</li>
+                    </ul>
+                </div>
+                
+                <div class="text-center">
+                    <button type="submit" 
+                            class="bg-orange-500 hover:bg-orange-600 text-white px-12 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 shadow-lg">
+                        Submit Assessment Form
+                    </button>
+                    <p class="text-sm text-gray-500 mt-4">
+                        By submitting this form, you agree to receive communications about our services. We never share your information.
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('intakeForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Add timestamp
+            data.timestamp = new Date().toISOString();
+            
+            // Here you would integrate with Google Sheets or your preferred backend
+            console.log('Form data:', data);
+            
+            // Show success message
+            alert('Thank you! We\'ll review your information and be in touch within 24 hours.');
+            
+            // Note: In production, this would send to Google Sheets via Apps Script
+            // or use services like Zapier, FormSpree, or similar
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+Date,Restaurant_Name,Daily_Revenue,Daily_Expenses,Net_Income,DSCR,Week_Number,Strategy_Implemented
+2024-09-01,Mumbai Spice Kitchen,1500,1200,300,1.15,1,Baseline
+2024-09-02,Mumbai Spice Kitchen,1600,1250,350,1.16,1,Baseline
+2024-09-03,Mumbai Spice Kitchen,1450,1180,270,1.14,1,Baseline
+2024-09-04,Mumbai Spice Kitchen,1700,1300,400,1.18,1,Baseline
+2024-09-05,Mumbai Spice Kitchen,1800,1350,450,1.20,1,Baseline
+2024-09-06,Mumbai Spice Kitchen,2100,1400,700,1.25,1,Baseline
+2024-09-07,Mumbai Spice Kitchen,2200,1450,750,1.26,1,Baseline
+2024-09-08,Mumbai Spice Kitchen,1650,1220,430,1.19,2,Menu Engineering
+2024-09-09,Mumbai Spice Kitchen,1750,1200,550,1.23,2,Menu Engineering
+2024-09-10,Mumbai Spice Kitchen,1600,1150,450,1.21,2,Menu Engineering
+2024-09-11,Mumbai Spice Kitchen,1850,1250,600,1.26,2,Menu Engineering
+2024-09-12,Mumbai Spice Kitchen,1900,1280,620,1.27,2,Menu Engineering
+2024-09-13,Mumbai Spice Kitchen,2250,1420,830,1.32,2,Menu Engineering
+2024-09-14,Mumbai Spice Kitchen,2400,1480,920,1.34,2,Menu Engineering
+2024-09-15,Mumbai Spice Kitchen,1700,1180,520,1.24,3,Staff Training
+2024-09-16,Mumbai Spice Kitchen,1800,1200,600,1.28,3,Staff Training
+2024-09-17,Mumbai Spice Kitchen,1650,1120,530,1.26,3,Staff Training
+2024-09-18,Mumbai Spice Kitchen,1950,1280,670,1.30,3,Staff Training
+2024-09-19,Mumbai Spice Kitchen,2000,1300,700,1.31,3,Staff Training
+2024-09-20,Mumbai Spice Kitchen,2350,1450,900,1.35,3,Staff Training
+2024-09-21,Mumbai Spice Kitchen,2500,1500,1000,1.38,3,Staff Training
+2024-09-22,Mumbai Spice Kitchen,1800,1150,650,1.30,4,Peak Hour Optimization
+2024-09-23,Mumbai Spice Kitchen,1850,1180,670,1.31,4,Peak Hour Optimization
+2024-09-24,Mumbai Spice Kitchen,1750,1100,650,1.32,4,Peak Hour Optimization
+2024-09-25,Mumbai Spice Kitchen,2100,1320,780,1.34,4,Peak Hour Optimization
+2024-09-26,Mumbai Spice Kitchen,2150,1340,810,1.35,4,Peak Hour Optimization
+2024-09-27,Mumbai Spice Kitchen,2450,1480,970,1.39,4,Peak Hour Optimization
+2024-09-28,Mumbai Spice Kitchen,2600,1520,1080,1.42,4,Peak Hour Optimization
+2024-09-29,Mumbai Spice Kitchen,1900,1200,700,1.33,5,Customer Retention
+2024-09-30,Mumbai Spice Kitchen,1950,1220,730,1.34,5,Customer Retention
